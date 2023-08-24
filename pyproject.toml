@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pdfchat"
+version = "0.1.0"
+description = ""
+authors = ["Richard <getrt1991@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.6"
+langchain = "^0.0.271"
+PyPDF2 = "^3.0.1"
+streamlit = "^1.25.0"
+streamlit-extras = "^0.3.0"
+chromadb = "^0.4.7"
+openai = "^0.27.9"
+pypdf = "^3.15.2"
+tiktoken = "^0.4.0"
+faiss-cpu = "^1.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
